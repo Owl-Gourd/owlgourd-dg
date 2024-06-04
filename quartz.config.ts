@@ -8,11 +8,11 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Owl Gourd is here" ,
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'umami', host: '<your-umami-host>', websiteId: '64ecc2c6-c815-4f84-8634-7fe284935b9a' 
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
